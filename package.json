@@ -1,0 +1,33 @@
+{
+  "name": "talog",
+  "version": "1.0.0",
+  "description": "Talent Log is a platform that offers the citizens an easy way to find talent to solve their needs",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ale13jo/talog.git"
+  },
+  "keywords": [
+    "talent",
+    "search",
+    "job",
+    "finder"
+  ],
+  "author": "Alejandro Blacut",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ale13jo/talog/issues"
+  },
+  "homepage": "https://github.com/ale13jo/talog#readme"
+}
