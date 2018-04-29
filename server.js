@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: true}));
   console.log('listening on 3000')
 });*/
 app.get('/', function(req, res) {
-  var cursor = db.collection('jobPost').find().toArray(function(err, results) {
+  var cursor = db.collection('somebase').find('{"features.geometry" : { $nearSphere : { $geometry : { type: "Point", "coordinates": [-77.02175930513762,38.88696128585864]}, $maxDistance: 100}}}').toArray(function(err, results) {
     console.log(results)
     // send HTML file populated with quotes here
   })
